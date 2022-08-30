@@ -13,11 +13,11 @@ export const Card = ({
   productImage,
 }: CardProps) => {
   return (
-    <div className="w-44">
-      <div className="flex justify-center h-[233px] items-center bg-cardBgGray">
-        <Image src={productImage} width={70} height={195} />
+    <div className="w-full">
+      <div className="flex justify-center items-center py-[19px] px-[32px] bg-cardBgGray">
+        <Image src={productImage} layout="intrinsic" />
       </div>
-      <div className="h-[72px] t-14 flex flex-col justify-around p-[10px] shadow-md">
+      <div className="t-14 flex flex-col justify-around p-2.5 gap-2 shadow-md">
         <div className="flex justify-between">
           <div className="t-14 font-bold text-lightBlack">
             {brandName.toUpperCase()}

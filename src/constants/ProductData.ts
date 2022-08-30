@@ -21,7 +21,7 @@ export const ProductData = [
   {
     productImage: stockholm,
     id: 3,
-    brandName: "Stockholms Branneri",
+    brandName: "Stockholms",
     price: 31,
     typeOfDrink: "Gin",
   },
@@ -49,7 +49,7 @@ export const ProductData = [
   {
     productImage: stockholm,
     id: 7,
-    brandName: "Stockholms Branneri",
+    brandName: "Stockholms",
     price: 31,
     typeOfDrink: "Gin",
   },
@@ -77,7 +77,7 @@ export const ProductData = [
   {
     productImage: stockholm,
     id: 11,
-    brandName: "Stockholms Branneri",
+    brandName: "Stockholms",
     price: 31,
     typeOfDrink: "Gin",
   },
@@ -105,7 +105,7 @@ export const ProductData = [
   {
     productImage: stockholm,
     id: 15,
-    brandName: "Stockholms Branneri",
+    brandName: "Stockholms",
     price: 31,
     typeOfDrink: "Gin",
   },
@@ -133,7 +133,7 @@ export const ProductData = [
   {
     productImage: stockholm,
     id: 19,
-    brandName: "Stockholms Branneri",
+    brandName: "Stockholms",
     price: 31,
     typeOfDrink: "Gin",
   },
