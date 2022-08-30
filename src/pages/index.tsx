@@ -13,11 +13,11 @@ export default function Home() {
 
       <main className="max-w-[1280px] m-auto text-lightBlack">
         <Header />
-        <section className="grid grid-cols-6 p-6 gap-5">
+        <section className="flex justify-between p-9">
           <ProductDetail />
           <Catalogue />
         </section>
-        <footer className="h-[337px] bg-lightBlack mt-4">
+        <footer className="bg-lightBlack mt-4">
           <Footer />
         </footer>
       </main>

@@ -3,8 +3,8 @@ import { FooterData } from "src/constants/FooterData";
 
 export const Footer = () => {
   return (
-    <div className="flex flex-col">
-      <div className="p-9 flex justify-between">
+    <div className="flex flex-col p-9">
+      <div className="flex justify-between">
         <WhiteLogo />
         <div className="flex text-white grow justify-center gap-10">
           {FooterData.map((title) => {
@@ -32,7 +32,7 @@ export const Footer = () => {
           </div>
         </div>
       </div>
-      <div className="border-t-[1px] h-[60px] border-textGray w-[90%] m-auto t-16 text-white flex justify-between items-center">
+      <div className="border-t-[1px] border-textGray w-[90%] mt-5 pt-3 m-auto t-16 text-white flex justify-between items-center">
         <div className="font-light t-16">&copy;2022 Lexir Inc.</div>
         <div className="flex gap-10 cursor-pointer">
           <div>Privacy</div>
@@ -50,7 +50,7 @@ export const FooterLinks = ({
   subtitle: string[];
 }) => {
   return (
-    <div className="p-3 px-8 flex flex-col gap-3">
+    <div className="p-3 px-8 flex flex-col gap-5">
       <a className="text-textGray cursor-default">{title}</a>
       {subtitle.map((subtitle) => {
         return <FooterSubLinks subtitle={subtitle} key={subtitle} />;

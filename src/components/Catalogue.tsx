@@ -2,7 +2,7 @@ import { Card } from "./Card";
 import { ProductData } from "../constants/ProductData";
 export const Catalogue = () => {
   return (
-    <div className="col-span-4 col-end-7 grid grid-cols-4 gap-5 justify-items-center">
+    <div className="w-full max-w-[810px] grid grid-cols-4 gap-5 justify-items-center">
       {ProductData.map((product): any => {
         return (
           <Card

@@ -12,12 +12,14 @@ module.exports = {
       },
       fontFamily: {
         lato: ["Lato", "sans-serif"],
+        source: ["Source Serif Pro", "serif"],
       },
       colors: {
         lightBlack: "#2D2D2D",
         textGray: "#8F8F8F",
         cardBgGray: "#F2F2F2",
         btnGray: "#F9F9F9",
+        btnGreen: "#1C8C64",
       },
     },
   },
