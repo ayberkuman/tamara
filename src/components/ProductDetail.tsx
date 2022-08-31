@@ -1,9 +1,15 @@
 import { LocationPin } from "@assets/svgs";
+import { motion } from "framer-motion";
 import Image from "next/image";
 import baldoria from "../assets/png/baldoria-logo.png";
 export const ProductDetail = ({ category }: { category: string[] }) => {
   return (
-    <div className="border-[1px] mb-5 md:mb-0 border-cardBgGray md:max-w-[380px] w-full">
+    <motion.div
+      initial={{ opacity: 0 }}
+      whileInView={{ opacity: 1 }}
+      transition={{ duration: 1 }}
+      className="border-[1px] mb-5 md:mb-0 border-cardBgGray md:max-w-[380px] w-full"
+    >
       <div className="mx-auto max-w-[215px] pt-5">
         <Image src={baldoria} layout="intrinsic" alt="baldoria logo" />
       </div>
@@ -19,7 +25,7 @@ export const ProductDetail = ({ category }: { category: string[] }) => {
       </div>
       <ProductLocationTag />
       <ProductCategoryTag category={category} />
-    </div>
+    </motion.div>
   );
 };
 export const ProductLocationTag = () => {

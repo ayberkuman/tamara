@@ -1,4 +1,4 @@
-@use 'sass:math';
+@use "sass:math";
 
 @function between($from, $to, $fromWidth, $toWidth) {
   $slope: math.div($from - $to, $fromWidth - $toWidth);
