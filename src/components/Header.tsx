@@ -4,7 +4,7 @@ import { Navigation } from "./Navigation";
 
 export const Header = () => {
   return (
-    <header className="h-24 bg-white flex justify-between items-center px-8 shadow-md">
+    <header className="bg-white flex justify-between items-center px-8 py-10 shadow-md">
       <button>
         <Image src={logo} width={103} height={24} alt="logo" />
       </button>

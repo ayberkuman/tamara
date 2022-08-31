@@ -3,6 +3,9 @@ import silentPool from "../assets/png/silent-pool.png";
 import stockholm from "../assets/png/stockholm.png";
 import mrGaston from "../assets/png/mr-gaston.png";
 
+/* I have made a mock data for the products here in the constants folder thinking it 
+would be like this if it was a real API,  of course if it was an API I would think about calling it with 
+nextjs functions like getStaticProps or getServerSideProps*/
 export const ProductData = [
   {
     productImage: umami,

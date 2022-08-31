@@ -7,6 +7,7 @@ type CardProps = {
   price: number;
   productImage: StaticImageData;
 };
+
 export const Card = ({
   brandName,
   typeOfDrink,

@@ -4,7 +4,7 @@ type NavigationProps = {
 };
 export const Navigation = ({ username }: NavigationProps) => {
   return (
-    <nav className="flex gap-12 t-14 font-lato font-medium">
+    <nav className="lg:flex lg:gap-12 md:grid md:grid-cols-2 md:gap-5 t-14 font-lato font-medium">
       <a className="cursor-pointer">PRODUCTS</a>
       <a className="cursor-pointer">BRANDS</a>
       <div className="flex">
