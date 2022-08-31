@@ -24,7 +24,7 @@ export const Card = ({
           <div className="t-14 font-bold text-lightBlack">
             {brandName.toUpperCase()}
           </div>
-          <div>€{price}</div>
+          <div className="text-[#6B6B6B]">€{price}</div>
         </div>
         <div className="flex justify-between">
           <div className="text-textGray t-14">{typeOfDrink.toUpperCase()}</div>

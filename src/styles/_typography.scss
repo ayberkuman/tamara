@@ -4,7 +4,7 @@ $xs: rem(400px);
 $lg: rem(1920px);
 
 .t-14 {
-  @include clamp("font-size", rem(12px), rem(14px), $xs, $lg);
+  @include clamp("font-size", rem(14px), rem(14px), $xs, $lg);
 }
 .t-15 {
   @include clamp("font-size", rem(14px), rem(15px), $xs, $lg);
@@ -16,5 +16,5 @@ $lg: rem(1920px);
   @include clamp("font-size", rem(18px), rem(22px), $xs, $lg);
 }
 .t-34 {
-  @include clamp("font-size", rem(10px), rem(34px), $xs, $lg);
+  @include clamp("font-size", rem(22px), rem(34px), $xs, $lg);
 }
