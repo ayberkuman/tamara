@@ -8,11 +8,11 @@ export const Navigation = ({ username }: NavigationProps) => {
       <a className="cursor-pointer">PRODUCTS</a>
       <a className="cursor-pointer">BRANDS</a>
       <div className="flex">
-        <ProfilePicPlaceHolder isWhite={false} />
+        <ProfilePicPlaceHolder />
         <a className="cursor-pointer">HELLO, {username.toUpperCase()}</a>
       </div>
       <div className="flex">
-        <CartIcon isWhite={false} />
+        <CartIcon />
         <a className="cursor-pointer">CART</a>
       </div>
     </nav>

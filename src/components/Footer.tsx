@@ -1,4 +1,4 @@
-import { CartIcon, ProfilePicPlaceHolder, WhiteLogo } from "@assets/svgs";
+import { SocialLogo, WhiteLogo } from "@assets/svgs";
 import { FooterData } from "src/constants/FooterData";
 
 export const Footer = () => {
@@ -19,16 +19,16 @@ export const Footer = () => {
         </div>
         <div className="p-3 gap-3 flex">
           <div>
-            <ProfilePicPlaceHolder isWhite={true} />
+            <SocialLogo />
           </div>
           <div>
-            <CartIcon isWhite={true} />
+            <SocialLogo />
           </div>
           <div>
-            <CartIcon isWhite={true} />
+            <SocialLogo />
           </div>
           <div>
-            <CartIcon isWhite={true} />
+            <SocialLogo />
           </div>
         </div>
       </div>

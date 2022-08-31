@@ -1,23 +1,20 @@
-type SvgProps = {
-  isWhite: boolean;
-};
-export const ProfilePicPlaceHolder = ({ isWhite }: SvgProps) => (
+export const ProfilePicPlaceHolder = () => (
   <svg width={24} height={25} fill="none" xmlns="http://www.w3.org/2000/svg">
     <path
       d="M12 6.5a3.75 3.75 0 1 0 0 7.5 3.75 3.75 0 0 0 0-7.5Zm0 6A2.25 2.25 0 1 1 12 8a2.25 2.25 0 0 1 0 4.5Z"
-      fill={isWhite ? "#FFF" : "#2D2D2D"}
+      fill="#2D2D2D"
     />
     <path
       d="M12 2a10.5 10.5 0 1 0 10.5 10.5A10.512 10.512 0 0 0 12 2ZM7.5 20.283V19.25A2.252 2.252 0 0 1 9.75 17h4.5a2.252 2.252 0 0 1 2.25 2.25v1.033a8.924 8.924 0 0 1-9 0Zm10.494-1.088A3.751 3.751 0 0 0 14.25 15.5h-4.5a3.752 3.752 0 0 0-3.744 3.695 9 9 0 1 1 11.989 0h-.001Z"
-      fill={isWhite ? "#FFF" : "#2D2D2D"}
+      fill="#2D2D2D"
     />
   </svg>
 );
-export const CartIcon = ({ isWhite }: SvgProps) => (
+export const CartIcon = () => (
   <svg width={22} height={18} fill="none" xmlns="http://www.w3.org/2000/svg">
     <path
       d="M15.236 7.168 12.072 1.03H9.915l-3.02 6.14H1l2.588 7.935C4.02 16.452 5.314 17.5 6.752 17.5h8.627c1.438 0 2.589-.898 3.164-2.396l2.588-7.936h-5.896Zm-4.458-4.641h.431l2.301 4.641H8.477l2.301-4.641Zm6.327 12.128c-.288.749-1.007 1.348-1.726 1.348H6.752c-.72 0-1.438-.6-1.726-1.348l-2.013-5.99h15.961l-1.87 5.99Z"
-      fill={isWhite ? "#FFF" : "#2D2D2D"}
+      fill="#2D2D2D"
       stroke="#2D2D2D"
       strokeWidth={0.235}
     />
@@ -33,5 +30,41 @@ export const WhiteLogo = () => (
         <path fill="#fff" transform="translate(.5)" d="M0 0h105.333v24H0z" />
       </clipPath>
     </defs>
+  </svg>
+);
+export const SocialLogo = () => (
+  <svg width={19} height={18} fill="none" xmlns="http://www.w3.org/2000/svg">
+    <path
+      d="M14.5 0h-10a4 4 0 0 0-4 4v10a4 4 0 0 0 4 4h5.621v-6.961H7.778V8.314h2.343V6.309c0-2.324 1.421-3.591 3.495-3.591.699-.002 1.397.034 2.092.105v2.43H14.28c-1.13 0-1.35.534-1.35 1.322V8.31h2.7l-.351 2.725h-2.365V18H14.5a4 4 0 0 0 4-4V4a4 4 0 0 0-4-4Z"
+      fill="#fff"
+    />
+  </svg>
+);
+export const AddButton = () => (
+  <svg width={19} height={19} fill="none" xmlns="http://www.w3.org/2000/svg">
+    <path
+      fillRule="evenodd"
+      clipRule="evenodd"
+      d="M9.5 3.958c.437 0 .792.355.792.792v9.5a.792.792 0 0 1-1.584 0v-9.5c0-.437.355-.792.792-.792Z"
+      fill="#2D2D2D"
+    />
+    <path
+      fillRule="evenodd"
+      clipRule="evenodd"
+      d="M3.958 9.5c0-.437.355-.792.792-.792h9.5a.792.792 0 0 1 0 1.584h-9.5a.792.792 0 0 1-.792-.792Z"
+      fill="#2D2D2D"
+    />
+  </svg>
+);
+export const LocationPin = () => (
+  <svg width={24} height={24} fill="none" xmlns="http://www.w3.org/2000/svg">
+    <path
+      d="M11.903 5.98a3 3 0 1 0 0 6 3 3 0 0 0 0-6Zm0 4.5a1.5 1.5 0 1 1 0-2.999 1.5 1.5 0 0 1 0 3Z"
+      fill="#2D2D2D"
+    />
+    <path
+      d="M17.668 3.212A8.153 8.153 0 0 0 5.072 13.426l5.667 8.7a1.389 1.389 0 0 0 2.327 0l5.668-8.7a8.153 8.153 0 0 0-1.067-10.214Zm-.191 9.395-5.574 8.558-5.574-8.558a6.683 6.683 0 0 1 .87-8.335 6.653 6.653 0 0 1 9.408 0 6.683 6.683 0 0 1 .87 8.335Z"
+      fill="#2D2D2D"
+    />
   </svg>
 );
