@@ -16,7 +16,7 @@ export const Card = ({
 }: CardProps) => {
   return (
     <div className="w-full">
-      <div className="flex justify-center items-center py-[19px] px-[32px] bg-cardBgGray">
+      <div className="flex justify-center py-[19px] px-[32px] bg-cardBgGray">
         <Image src={productImage} layout="intrinsic" alt="product image" />
       </div>
       <div className="t-14 flex flex-col justify-around p-2.5 gap-2 shadow-md">

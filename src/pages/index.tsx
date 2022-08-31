@@ -10,10 +10,10 @@ export default function Home() {
       <Head>
         <title>Lexir Frontend Assessment!</title>
       </Head>
-      <main className="max-w-[1280px] m-auto text-lightBlack">
+      <main>
         <Header />
-        <section className="flex justify-between p-9">
-          <ProductDetail category={["category", "vodka"]} />
+        <section className="flex flex-col md:flex-row justify-between p-9 max-w-[1280px] m-auto">
+          <ProductDetail category={["gin", "vodka"]} />
           <Catalogue />
         </section>
         <footer className="bg-lightBlack mt-4">
