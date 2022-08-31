@@ -1,11 +1,8 @@
 import { CartIcon, LocationPin, ProfilePicPlaceHolder } from "@assets/svgs";
-import { useState } from "react";
 type NavigationProps = {
   username: String;
 };
 export const Navigation = ({ username }: NavigationProps) => {
-  const [isOpen, setIsOpen] = useState(false);
-
   return (
     <>
       <nav className="lg:flex lg:gap-12 md:grid md:grid-cols-2 md:gap-5 t-14 font-lato hidden font-medium">
@@ -20,10 +17,9 @@ export const Navigation = ({ username }: NavigationProps) => {
           <a className="cursor-pointer">CART</a>
         </div>
       </nav>
-      <button onClick={() => setIsOpen(!isOpen)} className="md:hidden">
+      <button className="md:hidden">
         <LocationPin />
       </button>
-      {isOpen && <div className="w-screen h-screen bg-textGray">a</div>}
     </>
   );
 };
