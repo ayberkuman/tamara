@@ -1,11 +1,11 @@
-import { CartIcon, LocationPin, ProfilePicPlaceHolder } from "@assets/svgs";
+import { BurgerMenu, CartIcon, ProfilePicPlaceHolder } from "@assets/svgs";
 type NavigationProps = {
   username: String;
 };
 export const Navigation = ({ username }: NavigationProps) => {
   return (
     <>
-      <nav className="lg:flex lg:gap-12 md:grid md:grid-cols-2 md:gap-5 t-14 font-lato hidden font-medium">
+      <nav className="hidden md:flex lg:gap-12 md:gap-5 t-14 font-lato font-medium">
         <a className="cursor-pointer">PRODUCTS</a>
         <a className="cursor-pointer">BRANDS</a>
         <div className="flex items-center">
@@ -18,7 +18,7 @@ export const Navigation = ({ username }: NavigationProps) => {
         </div>
       </nav>
       <button className="md:hidden">
-        <LocationPin />
+        <BurgerMenu />
       </button>
     </>
   );

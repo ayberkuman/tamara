@@ -68,3 +68,10 @@ export const LocationPin = () => (
     />
   </svg>
 );
+export const BurgerMenu = () => (
+  <svg width={25} height={25} fill="none" xmlns="http://www.w3.org/2000/svg">
+    <rect x={2} y={5} width={20} height={2} rx={1} fill="#3E3E3E" />
+    <rect x={2} y={11} width={17} height={2} rx={1} fill="#3E3E3E" />
+    <rect x={2} y={17} width={20} height={2} rx={1} fill="#3E3E3E" />
+  </svg>
+);
