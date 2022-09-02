@@ -14,5 +14,7 @@ $xxxl: 1600px;
 @import "mixins";
 @import "misc";
 * {
+  margin: 0;
+  padding: 0;
   box-sizing: border-box;
 }

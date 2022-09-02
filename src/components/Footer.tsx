@@ -1,36 +1,26 @@
-import { SocialLogo, WhiteLogo } from "@assets/svgs";
-import { FooterData } from "src/constants/FooterData";
 
 export const Footer = () => {
   return (
     <div className="p-9 max-w-[1280px] m-auto">
       <div className="flex flex-col lg:flex-row lg:justify-between">
         <div className="p-4">
-          <WhiteLogo />
+          Logo
         </div>
         <div className="grid grid-cols-2 md:grid-cols-4 text-white">
-          {FooterData.map((title) => {
-            return (
-              <FooterLinks
-                {...title}
-                subtitle={title.subtitle}
-                key={title.id}
-              />
-            );
-          })}
+          map
         </div>
         <div className="p-3 gap-3 flex">
           <div>
-            <SocialLogo />
+            socials
           </div>
           <div>
-            <SocialLogo />
+            socials
           </div>
           <div>
-            <SocialLogo />
+            socials
           </div>
           <div>
-            <SocialLogo />
+            socials
           </div>
         </div>
       </div>

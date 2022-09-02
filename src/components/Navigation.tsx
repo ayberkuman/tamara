@@ -1,4 +1,3 @@
-import { BurgerMenu, CartIcon, ProfilePicPlaceHolder } from "@assets/svgs";
 import { motion } from "framer-motion";
 type NavigationProps = {
   username: String;
@@ -46,7 +45,7 @@ export const Navigation = ({ username }: NavigationProps) => {
           whileHover={{ scale: 1.2 }}
           className="flex items-center"
         >
-          <ProfilePicPlaceHolder />
+          icon
           <a className="cursor-pointer px-2">HELLO, {username.toUpperCase()}</a>
         </motion.div>
         <motion.div
@@ -55,13 +54,13 @@ export const Navigation = ({ username }: NavigationProps) => {
           className="flex items-center"
         >
           <div className="cart relative">
-            <CartIcon />
+            icon
           </div>
           <a className="cursor-pointer px-2">CART</a>
         </motion.div>
       </motion.nav>
       <button className="md:hidden">
-        <BurgerMenu />
+        burger
       </button>
     </>
   );
